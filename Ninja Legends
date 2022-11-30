@@ -1,0 +1,103 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ninja Legends - Caasi", "Synapse")
+
+-- MAIN
+local Main = Window:NewTab("Teleports")
+
+local MainSection = Main:NewSection("Misc")
+MainSection:NewButton("SHOP", "Teleports you to the SHOP", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.rankPurchaseTeleportPart.CFrame)
+end)
+
+local MainSection = Main:NewSection("Islands")
+function teleportTO(placeCFrame)
+    local plyr = game.Players.LocalPlayer
+    if plyr.Character then
+        plyr.Character.HumanoidRootPart.CFrame = placeCFrame
+    end
+end
+
+MainSection:NewButton("Enchanted Island", "Teleports you to the Enchanted Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToEnchantedIsland.CFrame)
+end)
+
+MainSection:NewButton("Astral Island", "Teleports you to the Astreal Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToAstralIsland.CFrame)
+end)
+
+MainSection:NewButton("Mystical Island", "Teleports you to the Mystical Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToMysticalIsland.CFrame)
+end)
+
+MainSection:NewButton("Space Island", "Teleports you to the Space Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToSpaceIsland.CFrame)
+end)
+
+MainSection:NewButton("Tundra Island", "Teleports you to the Tundra Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToTundraIsland.CFrame)
+end)
+
+MainSection:NewButton("Eternal Island", "Teleports you to the Eternal Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToEternalIsland.CFrame)
+end)
+
+MainSection:NewButton("Sandstorm Island", "Teleports you to the Sandstorm Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToSandstormIsland.CFrame)
+end)
+
+MainSection:NewButton("Thunderstorm Island", "Teleports you to the Thunderstorm Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToThunderstormIsland.CFrame)
+end)
+
+MainSection:NewButton("Ancient Inferno", "Teleports you to the Ancient Inferno Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToAncientInfernoIsland.CFrame)
+end)
+
+MainSection:NewButton("Midnight Shadow", "Teleports you to the Midnight Shadow Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToMidnightIsland.CFrame)
+end)
+
+MainSection:NewButton("Mythical Souls Island", "Teleports you to the Mythical Souls Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToMythicalSoulsIsland.CFrame)
+end)
+
+MainSection:NewButton("Winter Wonder Island", "Teleports you to the Winter Wonder Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToWinterWonderIsland.CFrame)
+end)
+
+MainSection:NewButton("Golden Master Island", "Teleports you to the Golden Master Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToGoldenMasterIsland.CFrame)
+end)
+
+MainSection:NewButton("Dragon Legend Island", "Teleports you to the Dragon Legend Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToDragonLegendIsland.CFrame)
+end)
+
+MainSection:NewButton("Cybernetic Legends Island", "Teleports you to the Cybernetic Legends Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToCyberneticLegendsIsland.CFrame)
+end)
+
+MainSection:NewButton("Skystorm Ultraus Island", "Teleports you to the Skystorm Ultraus Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToSkystormUltrausIsland.CFrame)
+end)
+
+MainSection:NewButton("Chaos Legends Island", "Teleports you to the Chaos Legends Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToChaosLegendsIsland.CFrame)
+end)
+
+MainSection:NewButton("Soul Fusion Island", "Teleports you to the Soul Fusion Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToSoulFusionIsland.CFrame)
+end)
+
+MainSection:NewButton("Dark Elements Island", "Teleports you to the Dark Elements Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToDarkElementsIsland.CFrame)
+end)
+
+MainSection:NewButton("Inner Peace Island", "Teleports you to the Inner Peace Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToInnerPeaceIsland.CFrame)
+end)
+
+MainSection:NewButton("Blazing Vortex Island", "Teleports you to the Blazing Vortex Island", function()
+    teleportTO(game:GetService("Workspace").areaTeleportParts.groundToBlazingVortexIsland.CFrame)
+end)
+
